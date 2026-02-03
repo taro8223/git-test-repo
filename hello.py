@@ -7,3 +7,10 @@ def greet(name):
 
 if __name__ == "__main__":
       print(greet("Git User"))
+
+
+# New feature: farewell function
+def farewell(name):
+          return f"Goodbye, {name}! See you next time!"
+
+print(farewell("Git User"))
